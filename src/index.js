@@ -15,7 +15,7 @@ $(document).ready(function() {
   let row8 = [6, 7, 8, 9, 1, 2, 3, 4, 5];
   let row9 = [9, 1, 2, 3, 4, 5, 6, 7, 8];
 
-  sudoku = new Sudoku(row1, row2, row3, row4, row5, row6, row7, row8, row9);
+  let sudoku = new Sudoku(row1, row2, row3, row4, row5, row6, row7, row8, row9);
 
   $(".results").html(sudoku.check());
 });
